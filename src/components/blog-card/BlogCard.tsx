@@ -14,9 +14,8 @@ const BlogCard: React.FC<BlogCardProps> = ({ title, description, imageUrl, link 
       <h2>{title}</h2>
       <p>{description}</p>
       <a href={link} target="_blank" rel="noopener noreferrer">
-        Read More
+        <img src={imageUrl} alt={title} />
       </a>
-      <img src={imageUrl} alt={title} />
     </div>
   );
 };

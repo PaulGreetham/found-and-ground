@@ -7,9 +7,9 @@ const Header: React.FC = () => {
     <header>
       <h1 className="site-title">
         <span className="name">
-          <span className="column column-1">F<span className="rest">ound</span></span>
+          <span className="column column-1">F<span className="rest">o</span><span className="rest">u</span><span className="rest">n</span><span className="rest">d</span></span>
           <span className="column column-2"><span className="initial">&</span></span>
-          <span className="column column-3">G<span className="rest">round</span></span>
+          <span className="column column-3">G<span className="rest">r</span><span className="rest">o</span><span className="rest">u</span><span className="rest">n</span><span className="rest">d</span></span>
         </span>
       </h1>
       <nav>

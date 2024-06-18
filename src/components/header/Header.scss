@@ -1,68 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 header {
+  font-family: 'Poppins', sans-serif;
   background-color: white;
   color: black;
-  padding: 8px;
+  padding-inline: 1rem;
   text-align: center;
 
   .site-title {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     position: relative;
+    margin: 0; /* Removes any default margin */
+        padding: 0; /* Removes any default padding */
 
     .name {
       display: flex;
+      font-size: 8rem;
       flex-direction: row;
-      align-items: center;
+      align-items: baseline;
+      justify-content: center;
+      line-height: 1;
+      margin: 0; /* Removes any default margin */
+      padding: 0; /* Removes any default padding */
 
-      .column {
-        display: flex;
-        align-items: center;
-        margin: 0 8px;
-
-        .initial {
-          display: inline;
-        }
-
-        .rest {
-          display: inline-block;
-          opacity: 0;
-          transition: opacity 0.05s ease-in-out;
-        }
-
-        &.column-1 .rest:nth-child(1) {
-          transition-delay: 0.025s;
-        }
-        &.column-1 .rest:nth-child(2) {
-          transition-delay: 0.05s;
-        }
-        &.column-1 .rest:nth-child(3) {
-          transition-delay: 0.075s;
-        }
-        &.column-1 .rest:nth-child(4) {
-          transition-delay: 0.1s;
-        }
-
-        &.column-3 .rest:nth-child(1) {
-          transition-delay: 0.125s;
-        }
-        &.column-3 .rest:nth-child(2) {
-          transition-delay: 0.150s;
-        }
-        &.column-3 .rest:nth-child(3) {
-          transition-delay: 0.175s;
-        }
-        &.column-3 .rest:nth-child(4) {
-          transition-delay: 0.2s;
-        }
-        &.column-3 .rest:nth-child(5) {
-          transition-delay: 0.225s;
-        }
+      .initial {
+        display: inline-block;
+        vertical-align: baseline; /* Aligns all letters to the baseline */
       }
+
+      .rest {
+        display: inline-block;
+        margin: 0; /* Removes any default margin */
+        padding: 0; /* Removes any default padding */
+        opacity: 0;
+        transition: opacity 0.25s ease-in-out;
+        font-size: inherit;
+      }
+
+      // Apply delay for each letter, space, and character
+      span:nth-child(1) { transition-delay: 0.025s; }
+      span:nth-child(2) { transition-delay: 0.05s; }
+      span:nth-child(3) { transition-delay: 0.075s; }
+      span:nth-child(4) { transition-delay: 0.1s; }
+      span:nth-child(5) { transition-delay: 0.125s; }
+      span:nth-child(6) { transition-delay: 0.15s; }
+      span:nth-child(7) { transition-delay: 0.175s; }
+      span:nth-child(8) { transition-delay: 0.2s; }
+      span:nth-child(9) { transition-delay: 0.225s; }
+      span:nth-child(10) { transition-delay: 0.25s; }
+      span:nth-child(11) { transition-delay: 0.275s; }
+      span:nth-child(12) { transition-delay: 0.3s; }
+      span:nth-child(13) { transition-delay: 0.325s; }
 
       &:hover .rest {
         opacity: 1;
-        transition: opacity 0.05s ease-in-out;
       }
     }
   }
@@ -83,6 +76,7 @@ header {
         a {
           color: black;
           text-decoration: none;
+          transition: color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 
           &:hover {
             color: pink;

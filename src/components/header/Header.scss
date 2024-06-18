@@ -4,7 +4,7 @@ header {
   font-family: 'Poppins', sans-serif;
   background-color: white;
   color: black;
-  padding-inline: 1rem;
+  padding-inline: 0.5rem 1rem;
   text-align: center;
 
   .site-title {
@@ -12,8 +12,9 @@ header {
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    margin: 0; /* Removes any default margin */
-        padding: 0; /* Removes any default padding */
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid lightgray;
 
     .name {
       display: flex;
@@ -52,7 +53,6 @@ header {
       span:nth-child(10) { transition-delay: 0.25s; }
       span:nth-child(11) { transition-delay: 0.275s; }
       span:nth-child(12) { transition-delay: 0.3s; }
-      span:nth-child(13) { transition-delay: 0.325s; }
 
       &:hover .rest {
         opacity: 1;
@@ -76,7 +76,7 @@ header {
         a {
           color: black;
           text-decoration: none;
-          transition: color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+          transition: color 0.4s;
 
           &:hover {
             color: pink;

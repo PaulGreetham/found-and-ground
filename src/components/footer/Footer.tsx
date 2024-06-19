@@ -4,7 +4,7 @@ import './Footer.scss';
 const Footer: React.FC = () => {
   return (
     <footer>
-      <p>&copy; 2023 Found and Ground. All rights reserved.</p>
+      <p>&copy; 2023 Found + Ground. All rights reserved.</p>
     </footer>
   );
 };

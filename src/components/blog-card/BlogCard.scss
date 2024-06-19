@@ -4,12 +4,10 @@
 .blog-card {
   font-family: poppins, sans-serif;
     border-top: 1px solid lightgray;
-    /* padding-block: 16px; */
+    padding-bottom: 32px;
     background-color: var(--card-background-color);
     transition: background-color 0.25s ease-in-out;
-
     text-align: center;
-    /* width: 250px; */
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -26,10 +24,11 @@
   h2 {
     font-size: 1rem;
     margin: 16px 0;
+    color: var(--text-color);
   }
 
   p {
     font-size: 0.5rem;
-    color: #666;
+    color: var(--text-color);
   }
 }

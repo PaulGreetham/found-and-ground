@@ -1,21 +1,22 @@
 import React from 'react';
+import { BlogCardProps } from '../../types/BlogPosts';
 import './BlogCard.scss';
 
-interface BlogCardProps {
-  title: string;
-  description: string;
-  imageUrl: string;
-  link: string;
-}
-
-const BlogCard: React.FC<BlogCardProps> = ({ title, description, imageUrl, link }) => {
+const BlogCard: React.FC<BlogCardProps> = ({ title, index, description, imageUrl, link }) => {
   return (
     <div className="blog-card">
-      <h2>{title}</h2>
+      <div className="top-section">
+        <h2>{title}</h2>
+        <h3>{index}</h3>
+      </div>
       <p>{description}</p>
-      <a href={link} target="_blank" rel="noopener noreferrer">
+      {link ? (
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          <img src={imageUrl} alt={title} />
+        </a>
+      ) : (
         <img src={imageUrl} alt={title} />
-      </a>
+      )}
     </div>
   );
 };

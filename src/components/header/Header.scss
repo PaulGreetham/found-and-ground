@@ -25,7 +25,7 @@ header {
         margin: 0; /* Removes any default margin */
         padding: 0; /* Removes any default padding */
         opacity: 0;
-        transition: opacity 0.125s ease-in-out;
+        transition: opacity 0.05s ease-in-out;
         font-size: inherit;
       }
 
@@ -34,14 +34,14 @@ header {
       span:nth-child(2) { transition-delay: 0.05s; }
       span:nth-child(3) { transition-delay: 0.075s; }
       span:nth-child(4) { transition-delay: 0.1s; }
-      span:nth-child(5) { transition-delay: 0.125s; }
-      span:nth-child(6) { transition-delay: 0.15s; }
-      span:nth-child(7) { transition-delay: 0.175s; }
-      span:nth-child(8) { transition-delay: 0.2s; }
-      span:nth-child(9) { transition-delay: 0.225s; }
-      span:nth-child(10) { transition-delay: 0.25s; }
-      span:nth-child(11) { transition-delay: 0.275s; }
-      span:nth-child(12) { transition-delay: 0.3s; }
+      span:nth-child(5) { transition-delay: 0.13s; }
+      span:nth-child(6) { transition-delay: 0.16s; }
+      span:nth-child(7) { transition-delay: 0.19s; }
+      span:nth-child(8) { transition-delay: 0.22s; }
+      span:nth-child(9) { transition-delay: 0.25s; }
+      span:nth-child(10) { transition-delay: 0.275s; }
+      span:nth-child(11) { transition-delay: 0.3s; }
+      span:nth-child(12) { transition-delay: 0.325s; }
 
       &:hover .rest {
         opacity: 1;

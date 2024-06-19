@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import '../../styles/themes.scss';
 
 header {
   font-family: 'Poppins', sans-serif;
-  background-color: white;
-  color: black;
+  background-color: var(--background-color);
+  color: var(--text-color);
   padding-inline: 32px;
   text-align: center;
+  transition: background-color 0.25s ease-in-out;
+
 
   .site-title {
     margin: 0;

@@ -1,4 +1,8 @@
+@import '../../styles/themes.scss';
+
 .home {
+  background-color: var(--card-background-color);
+  transition: background-color 0.25s ease-in-out;
 
   h2 {
     text-align: left;
@@ -15,8 +19,8 @@
   .blog-card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 32px;
-    margin-top: 10rem;
+    padding: 32px;
+    padding-top: 10rem;
     gap: 32px;
   }
 }

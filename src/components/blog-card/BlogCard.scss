@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import '../../styles/themes.scss';
 
 .blog-card {
   font-family: poppins, sans-serif;
     border-top: 1px solid lightgray;
     /* padding-block: 16px; */
-    /* background-color: white; */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: var(--card-background-color);
+    transition: background-color 0.25s ease-in-out;
+
     text-align: center;
     /* width: 250px; */
     display: flex;

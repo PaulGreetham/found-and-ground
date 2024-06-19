@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.scss';
+import ThemeToggle from '../theme-toggle/ThemeToggle';
 
 const Header: React.FC = () => {
   return (
@@ -31,6 +32,7 @@ const Header: React.FC = () => {
           <li><Link to="/blog">Blog</Link></li>
           <li><Link to="/about">About</Link></li>
         </ul>
+        <ThemeToggle />
       </nav>
     </header>
   );

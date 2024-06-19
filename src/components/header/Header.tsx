@@ -13,6 +13,7 @@ const Header: React.FC = () => {
             <span className="rest">U</span>
             <span className="rest">N</span>
             <span className="rest">D</span>
+            <span className="space"></span>
             <span className="rest">+</span>
           </div>
           <div className="second-word">

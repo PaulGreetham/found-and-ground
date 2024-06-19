@@ -8,31 +8,24 @@ header {
   text-align: center;
 
   .site-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
     margin: 0;
-    padding: 16px;
+    padding-block: 16px;
     border-bottom: 1px solid lightgray;
 
     .name {
-      font-size: 8rem;
+      display: flex;
+      font-size: 18vh;
       line-height: 1;
       margin: 0;
       padding: 0;
 
-      .initial {
-        display: inline-block;
-        vertical-align: baseline; /* Aligns all letters to the baseline */
-      }
-
       .rest {
-        display: inline-block;
+        display: flex;
+        justify-content: space-between;
         margin: 0; /* Removes any default margin */
         padding: 0; /* Removes any default padding */
         opacity: 0;
-        transition: opacity 0.25s ease-in-out;
+        transition: opacity 0.125s ease-in-out;
         font-size: inherit;
       }
 
@@ -53,6 +46,16 @@ header {
       &:hover .rest {
         opacity: 1;
       }
+    }
+
+    .first-word {
+      display: flex;
+      width: 100%;
+    }
+
+    .second-word {
+      display: flex;
+      width: 100%;
     }
   }
 

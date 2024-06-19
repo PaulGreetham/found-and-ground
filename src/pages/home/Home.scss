@@ -1,5 +1,4 @@
 .home {
-  padding: 16px;
 
   h2 {
     text-align: left;
@@ -14,9 +13,10 @@
   }
 
   .blog-card-container {
-    margin-top: 10rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 16px;
+    margin: 32px;
+    margin-top: 10rem;
+    gap: 32px;
   }
 }

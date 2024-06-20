@@ -55,6 +55,12 @@ header {
         opacity: 1;
       }
     }
+
+    @media screen and (max-width: 600px) {
+      .name {
+        font-size: 9.5vw;
+      }
+    }
   }
 
   nav {

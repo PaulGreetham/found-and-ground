@@ -31,7 +31,7 @@ export const blogPosts: BlogCardProps[] = [
     link: '/blog/blog-post-4'
   },
   {
-    title: 'Geogrpahical Bean Varieties',
+    title: 'Geogrpahical Varieties',
     index: '#5',
     description: 'Learn more about the different geographical bean varieties of coffee beans here with our expert guide.',
     imageUrl: '/photos/sean-benesh-SRrRWT44mek-unsplash.jpg',

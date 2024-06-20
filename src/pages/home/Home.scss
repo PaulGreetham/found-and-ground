@@ -23,4 +23,22 @@
     padding-top: 10rem;
     gap: 32px;
   }
+
+  @media screen and (max-width: 1160px) {
+    .blog-card-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 860px) {
+    .blog-card-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .blog-card-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 }

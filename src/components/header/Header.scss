@@ -19,7 +19,7 @@ header {
     margin: 0;
     padding-block: 16px;
     border-bottom: 1px solid lightgray;
-    font-size: 11vw;
+    font-size: 10vw;
     line-height: 1;
     width: 100%;
     text-align: center;
@@ -60,13 +60,13 @@ header {
 
   @media screen and (max-width: 900px) {
     h1 {
-      font-size: 9.75vw;
+      font-size: 9.5vw;
     }
   }
 
   @media screen and (max-width: 400px) {
     h1 {
-      font-size: 9.5vw;
+      font-size: 9vw;
     }
   }
 }

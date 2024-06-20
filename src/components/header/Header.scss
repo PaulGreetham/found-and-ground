@@ -55,12 +55,6 @@ header {
         opacity: 1;
       }
     }
-
-    @media screen and (max-width: 600px) {
-      .name {
-        font-size: 9.5vw;
-      }
-    }
   }
 
   nav {
@@ -94,5 +88,20 @@ header {
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9.5vw;
+
+  }
+
+  .rest {
+    opacity: 1;
   }
 }

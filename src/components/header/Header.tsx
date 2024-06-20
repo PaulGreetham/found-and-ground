@@ -7,7 +7,7 @@ const Header: React.FC = () => {
   return (
     <header>
       <Link to="/" className="site-title-link">
-        <h1 className="site-title">
+        <h1>
           <span className="name">
               <span className="initial">F</span>
               <span className="rest">O</span>

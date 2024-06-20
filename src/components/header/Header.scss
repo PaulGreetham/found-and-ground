@@ -12,49 +12,17 @@ header {
   .site-title-link {
     text-decoration: none;
     color: inherit;
+    display: block;
   }
 
   h1 {
     margin: 0;
     padding-block: 16px;
     border-bottom: 1px solid lightgray;
-
-    .name {
-      display: flex;
-      font-size: 10vw;
-      line-height: 1;
-      width: 100%;
-      margin: 0;
-      padding: 0;
-
-      .rest {
-        display: flex;
-        justify-content: space-between;
-        margin: 0; /* Removes any default margin */
-        padding: 0; /* Removes any default padding */
-        opacity: 0;
-        transition: opacity 0.025s ease-in-out;
-        font-size: inherit;
-      }
-
-      // Apply delay for each letter, space, and character
-      span:nth-child(1) { transition-delay: 0.025s; }
-      span:nth-child(2) { transition-delay: 0.05s; }
-      span:nth-child(3) { transition-delay: 0.075s; }
-      span:nth-child(4) { transition-delay: 0.1s; }
-      span:nth-child(5) { transition-delay: 0.13s; }
-      span:nth-child(6) { transition-delay: 0.16s; }
-      span:nth-child(7) { transition-delay: 0.16s; }
-      span:nth-child(8) { transition-delay: 0.19s; }
-      span:nth-child(9) { transition-delay: 0.22s; }
-      span:nth-child(10) { transition-delay: 0.25s; }
-      span:nth-child(11) { transition-delay: 0.275s; }
-      span:nth-child(12) { transition-delay: 0.3s; }
-
-      &:hover .rest {
-        opacity: 1;
-      }
-    }
+    font-size: 11vw;
+    line-height: 1;
+    width: 100%;
+    text-align: center;
   }
 
   nav {
@@ -92,16 +60,7 @@ header {
 }
 
 @media screen and (max-width: 600px) {
-
-  .name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  h1 {
     font-size: 9.5vw;
-
-  }
-
-  .rest {
-    opacity: 1;
   }
 }

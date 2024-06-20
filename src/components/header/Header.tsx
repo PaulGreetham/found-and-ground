@@ -7,22 +7,7 @@ const Header: React.FC = () => {
   return (
     <header>
       <Link to="/" className="site-title-link">
-        <h1>
-          <span className="name">
-              <span className="initial">F</span>
-              <span className="rest">O</span>
-              <span className="rest">U</span>
-              <span className="rest">N</span>
-              <span className="rest">D</span>
-              <span className="rest">+</span>
-              <span className="rest">G</span>
-              <span className="rest">R</span>
-              <span className="rest">O</span>
-              <span className="rest">U</span>
-              <span className="rest">N</span>
-              <span className="rest">D</span>
-          </span>
-        </h1>
+        <h1>FOUND+GROUND</h1>
       </Link>
       <nav>
         <ul>

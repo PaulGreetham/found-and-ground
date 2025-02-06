@@ -8,10 +8,6 @@ const BlogPost: React.FC = () => {
   const { id } = useParams();
   const post = blogContent[`blog-post-${id}`];
 
-  console.log('Current ID:', id);
-  console.log('Available posts:', Object.keys(blogContent));
-  console.log('Current post:', post);
-
   if (!post) {
     return <div className="blog-post-error">Blog post not found</div>;
   }

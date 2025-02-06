@@ -1,25 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BlogCardProps } from '../../types/BlogPosts';
 import './BlogCard.scss';
 
-const BlogCard = ({ title, index, description, imageUrl, link }: BlogCardProps) => {
+interface BlogCardProps {
+  title: string;
+  index: string;
+  description: string;
+  imageUrl: string;
+  link?: string;
+}
+
+const BlogCard: React.FC<BlogCardProps> = ({ title, index, description, imageUrl, link }) => {
   return (
-    <div className="blog-card">
+    <Link to={link || '#'} className="blog-card">
+      <img src={imageUrl} alt={title} />
       <div className="top-section">
+        <span className="post-index">{index}</span>
         <h2>{title}</h2>
-        <h3>{index}</h3>
+        <p>{description}</p>
       </div>
-      <p>{description}</p>
-      {link ? (
-        <Link to={link}>
-          <img src={imageUrl} alt={title} />
-        </Link>
-      ) : (
-        <img src={imageUrl} alt={title} />
-      )}
-    </div>
+    </Link>
   );
 };
 
-export default React.memo(BlogCard);
+export default BlogCard;

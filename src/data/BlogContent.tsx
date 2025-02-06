@@ -43,7 +43,7 @@ The evolution of coffee culture is still ongoing. It reflects humanity’s love 
     },
     publishDate: 'January 15, 2024',
     author: 'James Wilson',
-    readTime: '5 min read',
+    readTime: '3 min read',
     link: '/blog/blog-post-1'
   },
 
@@ -83,7 +83,7 @@ Time and temperature are equally important. Water that’s too hot can scorch th
     },
     publishDate: 'January 20, 2024',
     author: 'Sarah Chen',
-    readTime: '7 min read',
+    readTime: '4 min read',
     link: '/blog/blog-post-2'
   },
 
@@ -123,7 +123,7 @@ Cleaning supplies are an often overlooked but vital component of your coffee sta
     },
     publishDate: 'January 25, 2024',
     author: 'Sophia Green',
-    readTime: '5 min read',
+    readTime: '3 min read',
     link: '/blog/blog-post-3'
   },
 
@@ -203,7 +203,7 @@ Vietnam, one of the world’s largest coffee producers, primarily grows Robusta 
     },
     publishDate: 'February 2, 2024',
     author: 'Karina Davis',
-    readTime: '7 min read',
+    readTime: '3 min read',
     link: '/blog/blog-post-5'
   },
 
@@ -283,7 +283,7 @@ Taste is your ultimate guide. Pay attention to balance: a good espresso should h
     },
     publishDate: 'February 10, 2024',
     author: 'Lily Carter',
-    readTime: '6 min read',
+    readTime: '3 min read',
     link: '/blog/blog-post-7'
   },
 
@@ -323,7 +323,7 @@ These robust profiles appeal to those who enjoy a thick, full-bodied cup with ri
     },
     publishDate: 'February 12, 2024',
     author: 'Emily White',
-    readTime: '8 min read',
+    readTime: '4 min read',
     link: '/blog/blog-post-8'
   },
 
@@ -363,7 +363,7 @@ Beyond personal preference, professional baristas and roasters also consider the
     },
     publishDate: 'February 15, 2024',
     author: 'Finn Murray',
-    readTime: '4 min read',
+    readTime: '2 min read',
     link: '/blog/blog-post-9'
   },
 
@@ -403,7 +403,7 @@ Practice is the only way to improve. Consider steaming small amounts of milk and
     },
     publishDate: 'February 18, 2024',
     author: 'Zoey Turner',
-    readTime: '7 min read',
+    readTime: '3 min read',
     link: '/blog/blog-post-10'
   },
 
@@ -443,7 +443,7 @@ For travel, consider a portable pour-over kit or an AeroPress. These lightweight
     },
     publishDate: 'February 20, 2024',
     author: 'Grace Johnson',
-    readTime: '8 min read',
+    readTime: '3 min read',
     link: '/blog/blog-post-11'
   },
 
@@ -523,7 +523,7 @@ Alternatively, you might devote these minutes to reading a few pages of an inspi
     },
     publishDate: 'February 25, 2024',
     author: 'Lucas Martin',
-    readTime: '5 min read',
+    readTime: '3 min read',
     link: '/blog/blog-post-13'
   },
 
@@ -563,7 +563,7 @@ Beyond these classics, methods like siphon brewing or moka pots each bring uniqu
     },
     publishDate: 'March 1, 2024',
     author: 'Ava Peterson',
-    readTime: '6 min read',
+    readTime: '2 min read',
     link: '/blog/blog-post-14'
   },
 
@@ -603,7 +603,7 @@ Economically, coffee remains one of Colombia’s major exports. The industry pro
     },
     publishDate: 'March 5, 2024',
     author: 'Liam Garcia',
-    readTime: '7 min read',
+    readTime: '3 min read',
     link: '/blog/blog-post-15'
   },
 
@@ -643,7 +643,7 @@ If your machine uses water filters, keep track of the replacement schedule. Old 
     },
     publishDate: 'March 10, 2024',
     author: 'Olivia Wilson',
-    readTime: '4 min read',
+    readTime: '2 min read',
     link: '/blog/blog-post-16'
   }
 };

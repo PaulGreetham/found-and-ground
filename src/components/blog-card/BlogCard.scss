@@ -24,8 +24,17 @@
   }
 
   .top-section {
+    display: flex;
+    flex-direction: column;
     padding: 16px;
     color: var(--text-color);
+
+    .title-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
 
     .post-index {
       color: var(--secondary-text-color);
@@ -38,9 +47,16 @@
     }
 
     p {
-      color: var(--secondary-text-color);
+      color: var(--text-color);
       font-size: 0.9rem;
+      padding-top: 36px;
       line-height: 1.5;
+      height: 4.5em;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      text-overflow: ellipsis;
     }
   }
 }

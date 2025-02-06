@@ -4,21 +4,40 @@
 .blog-card {
   font-family: 'Poppins', sans-serif;
   border-top: 1px solid lightgray;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
   background-color: var(--card-background-color);
   transition: background-color 0.25s ease-in-out;
   text-align: center;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    background-color: var(--card-hover-color);
+    
+    img {
+      opacity: 0.8;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #fce4ec;
+      opacity: 0.3;
+      pointer-events: none;
+    }
+  }
 
   img {
     display: flex;
     width: 100%;
-
-    &:hover {
-      background-color: pink;
-    }
+    transition: all 0.25s ease-in-out;
   }
 
   .top-section {
@@ -27,6 +46,8 @@
     margin: 0;
     padding-block: 16px;
     color: var(--text-color);
+    position: relative;
+    z-index: 1;
 
     display: flex;
     justify-content: space-between;
@@ -50,8 +71,8 @@
   p {
     font-size: 0.5rem;
     color: var(--text-color);
-    line-height: 1.5em; /* Adjust line height as needed */
-    height: 4.5em; /* (line-height * 3) */
+    line-height: 1.5em;
+    height: 4.5em;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;

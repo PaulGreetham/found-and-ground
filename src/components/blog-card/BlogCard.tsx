@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { BlogCardProps } from '../../types/BlogPosts';
 import './BlogCard.scss';
 
-const BlogCard: React.FC<BlogCardProps> = ({ title, index, description, imageUrl, link }) => {
+const BlogCard = ({ title, index, description, imageUrl, link }: BlogCardProps) => {
   return (
     <div className="blog-card">
       <div className="top-section">
@@ -11,9 +12,9 @@ const BlogCard: React.FC<BlogCardProps> = ({ title, index, description, imageUrl
       </div>
       <p>{description}</p>
       {link ? (
-        <a href={link} target="_blank" rel="noopener noreferrer">
+        <Link to={link}>
           <img src={imageUrl} alt={title} />
-        </a>
+        </Link>
       ) : (
         <img src={imageUrl} alt={title} />
       )}
@@ -21,4 +22,4 @@ const BlogCard: React.FC<BlogCardProps> = ({ title, index, description, imageUrl
   );
 };
 
-export default BlogCard;
+export default React.memo(BlogCard);

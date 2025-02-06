@@ -1,0 +1,18 @@
+.blog-content {
+  section {
+    margin-bottom: 2rem;
+    
+    h2 {
+      font-size: 1.8rem;
+      margin: 2rem 0 1rem;
+      color: var(--text-color);
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: var(--text-color);
+    }
+  }
+} 

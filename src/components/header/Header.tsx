@@ -10,9 +10,6 @@ const Header: React.FC = () => {
         <h1>FOUND + GROUND</h1>
       </Link>
       <nav>
-        <ul>
-          <li><Link to="/about">About</Link></li>
-        </ul>
         <ThemeToggle />
       </nav>
     </header>
